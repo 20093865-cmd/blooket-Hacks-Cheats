@@ -12,7 +12,7 @@
             if (window.location.pathname != '/play/gold') {
                 alert('You must be in a gold quest game!');
             } else {
-                let gold = Number(parseFloat(prompt('How much gold do you want?')));
+                let gold = Number(parseFloat(prompt('1,000,000')));
                 reactHandler().stateNode.setState({ gold2: gold, gold });
 
                 alert('Gold added!');
@@ -52,3 +52,4 @@ function footer() {
 };
 
 footer();
+
